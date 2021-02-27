@@ -1,1 +1,1 @@
-## Formulários de login e cadastro para você se inspirar e praticar HTML e CSS:computer: :books:
+## Login and registration forms to practice HTML, CSS, JS :computer: :books:
