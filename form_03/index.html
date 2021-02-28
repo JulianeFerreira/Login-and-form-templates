@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9be633d813.js" crossorigin="anonymous" defer></script>
+    <title>Login Helper</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+       <div id="logo">
+           <h1>Logo</h1>
+       </div>
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Entrar</a></li>
+            </ul>
+        </nav>
+
+        <div class="clear"></div>
+    </div>
+
+    </header>
+
+    <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="E-mail*" required>
+                
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="Senha*" required>
+                    <i class="far fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="far fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+            </section>
+
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha?</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
+
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com</span>
+                <aside>
+                    <a href=""><i class="fab fa-google-plus-square google"></i></a>
+                    <a href=""><i class="fab fa-linkedin linkedin"></i></a>
+                    <a href=""><i class="fab fa-facebook-square facebook"></i></a>
+                </aside>
+            </section>
+
+            <footer>
+                <hr>
+                <span>Não possui uma conta? <a href="#">Cadastre-se</a></span>
+            </footer>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
